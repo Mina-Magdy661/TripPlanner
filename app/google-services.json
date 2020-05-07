@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "854044057492",
+    "firebase_url": "https://android-project-486d2.firebaseio.com",
+    "project_id": "android-project-486d2",
+    "storage_bucket": "android-project-486d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854044057492:android:e79f0217a7181976ba3981",
+        "android_client_info": {
+          "package_name": "com.example.remindme2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854044057492-26ts3qpvlt5agupei8jtai1copubj56i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.remindme2",
+            "certificate_hash": "4111e8010056f515ec6106b3558a4f8a97b5ad4a"
+          }
+        },
+        {
+          "client_id": "854044057492-3embvo9bdj1v5qp1rob04k8u3thvpuod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCXT6EBWAiRL5YahtJIDoO1wjhFN2Nc1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854044057492-3embvo9bdj1v5qp1rob04k8u3thvpuod.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

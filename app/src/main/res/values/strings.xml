@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Remind me</string>
+    <string name="login">Login</string>
+    <string name="splashScreenDesc">Design your Trip, And we will remind you</string>
+    <string name="password">Password</string>
+    <string name="welcomeTxt">Remind Me</string>
+    <string name="contentDescription">Splach Screen Logo</string>
+    <string name="noAccount">No Account yet?Create One!</string>
+    <string name="forgetPass"><u>Forget Password ?</u></string>
+    <string name="email">Email</string>
+    <string name="create">Create</string>
+    <string name="registration">Registration</string>
+    <string name="already_has_an_account">Already has an account ?</string>
+    <string name="create_your_trip">Create your Trip</string>
+    <string name="trip_title">Trip Title</string>
+    <string name="start_place">Start Point</string>
+    <string name="end_place">End Point</string>
+    <string name="trip_time">Trip Time</string>
+    <string name="one_way">One Way</string>
+    <string name="round">Round</string>
+    <string name="trip_type">Trip Type:</string>
+    <string name="enter_time">Enter Time</string>
+    <string name="add_trip">Add Trip</string>
+    <string name="return_time">Return Time</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">History</string>
+    <string name="menu_slideshow">Sync</string>
+
+    <string name="home_second">Home Second</string>
+
+
+    <string name="Date_Time">Date_Time</string>
+    <string name="TripName">TripName</string>
+    <string name="SLoctaion">SLoctaion</string>
+    <string name="Elocation">Elocation</string>
+
+    <string name="Drawer_open">Drawer_open</string>
+    <string name="Drawer_close">Drawer_close</string>
+
+
+    <string name="Edit">Edit</string>
+    <string name="Note">Add Note</string>
+    <string name="add">add</string>
+    <string name="Delete">Delete</string>
+    <string name="save" />
+    <string name="title_activity_details">Details</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_edait_note">EdaitNote</string>
+    <string name="start">Start</string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="enter_your_start_place">Tap to select Start Place</string>
+    <string name="tap_to_select_end_place">Tap to select end place</string>
+    <string name="edit_trip">Edit Trip</string>
+    <string name="about_us">About US</string>
+    <string name="we">we</string>
+    <string name="ok">OK</string>
+    <string name="load_your_data_from_our_cloud_database_n_please_some_of_your_trips_may_be_marked_as_ended_because_its_data_is_before_the_current_date">Load your data From Our cloud Database \n please, note that some of your trips may be marked as Ended because its date is before the current date</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="tab_to_show_notes">Tab to show notes</string>
+    <string name="title_activity_history_map">Map</string>
+    <string name="your_notes">Your Notes</string>
+    <string name="history_map">History Map</string>
+
+</resources>

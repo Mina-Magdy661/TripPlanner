@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".weGetData">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/cloud"
+        android:layout_marginTop="30sp"
+        android:layout_gravity="center"
+/>
+
+    <TextView
+        android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+
+        android:text="@string/we"
+      android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+       android:layout_gravity="center"    />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+        android:text="@string/load_your_data_from_our_cloud_database_n_please_some_of_your_trips_may_be_marked_as_ended_because_its_data_is_before_the_current_date"/>
+
+    <Button
+        android:id="@+id/okBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:layout_marginTop="30dp"
+
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:padding="10dp"
+
+
+        android:background="@drawable/login_btn"
+        />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

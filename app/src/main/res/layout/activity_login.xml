@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:text="@string/login"
+        android:paddingVertical="35dp"
+        android:gravity="center"
+        android:textSize="60sp"
+        android:fontFamily="cursive"
+        android:textColor="@color/black"
+        android:background="@drawable/login_pic"
+        android:layout_marginBottom="25dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+
+        android:textColor="@color/colorAccent"
+        />
+    <EditText
+        android:id="@+id/emailEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:autofillHints="@string/email" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:textColor="@color/colorAccent"
+        />
+    <EditText
+        android:id="@+id/passwordEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:autofillHints="@string/password"
+
+
+        />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="20dp"
+        android:background="@drawable/login_btn"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:id="@+id/forgetPassTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/forgetPass"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginHorizontal="30dp"
+        android:gravity="center"
+        android:clickable="true"
+        android:layout_marginBottom="5sp"
+        android:padding="5sp"
+
+
+
+        />
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/googleSignBtn"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+/>
+    <TextView
+        android:id="@+id/createAccountTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/noAccount"
+        android:layout_marginHorizontal="30dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:clickable="true"
+        android:padding="10sp"
+
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

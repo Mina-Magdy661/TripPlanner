@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".NewTripActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="100dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/create_your_trip"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+
+            />
+<EditText
+    android:id="@+id/tripTitleEt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/trip_title"
+    android:padding="10dp"
+    android:textSize="30sp"
+    android:inputType="text"
+    android:autofillHints="" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:text="@string/start_place"
+        android:paddingLeft="10dp"
+        android:textSize="25sp"
+         android:textStyle="bold"
+        android:textColor="@color/black"
+
+      />
+    <EditText
+        android:id="@+id/startEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:hint="@string/enter_your_start_place"
+        android:editable="false"
+        android:clickable="true"
+        android:focusable="false"
+        android:drawableLeft="@drawable/ic_search_black_24dp"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/end_place"
+        android:paddingLeft="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+      />
+    <EditText
+        android:id="@+id/endEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:hint="@string/tap_to_select_end_place"
+        android:editable="false"
+        android:clickable="true"
+        android:focusable="false"
+        android:drawableLeft="@drawable/ic_search_black_24dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/trip_time"
+        android:paddingLeft="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="8dp">
+
+        <EditText
+            android:id="@+id/dateEt"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/calender"
+            android:drawablePadding="5dp"
+            android:hint="Enter Date"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:editable="false"
+
+            android:focusable="false"
+            android:imeOptions="actionNext"
+            android:textColor="@color/colorAccent"/>
+
+        <EditText
+            android:id="@+id/timeEt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:editable="false"
+            android:drawableLeft="@drawable/timet"
+            android:drawablePadding="5dp"
+            android:hint="@string/enter_time"
+            android:textSize="16sp"
+            android:imeOptions="actionNext"
+            android:focusable="false"
+
+            android:textColor="@color/colorAccent"/>
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/tripTypeRadioGr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trip_type"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_margin="8dp"/>
+
+        <RadioButton
+            android:id="@+id/onewayTrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/one_way"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_margin="8dp"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:id="@+id/roundTrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/round"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_margin="8dp"/>
+    </RadioGroup>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/return_time"
+        android:paddingLeft="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="8dp">
+
+        <EditText
+            android:id="@+id/returnDateEt"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/calender"
+            android:editable="false"
+
+            android:drawablePadding="5dp"
+            android:hint="Enter Date"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:focusable="false"
+            android:imeOptions="actionNext"
+            android:textColor="@color/colorAccent"
+            android:enabled="false"
+            />
+
+        <EditText
+            android:id="@+id/returnTimeEt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/timet"
+            android:drawablePadding="5dp"
+            android:editable="false"
+            android:enabled="false"
+
+            android:hint="@string/enter_time"
+            android:imeOptions="actionNext"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:focusable="false"
+
+
+            />
+
+    </LinearLayout>
+
+<Button
+    android:id="@+id/addTripBtn"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:text="@string/add_trip"
+    android:textAllCaps="false"
+    android:background="@drawable/login_btn"
+    android:layout_gravity="center"
+    android:textColor="@color/white"
+    android:textSize="30sp"
+    android:padding="10dp"
+    android:layout_marginTop="20sp"
+
+    />
+</androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>
